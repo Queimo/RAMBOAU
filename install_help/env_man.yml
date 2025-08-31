@@ -1,0 +1,30 @@
+name: ramboau
+channels:
+- conda-forge
+- pkgs/main
+dependencies:
+- pip
+- python=3.9
+- pip:
+  - autograd
+  - pandas
+  - plotly
+  - pymoo==0.4.2.2
+  - scikit-learn
+  - scipy
+  - numpy
+  - wandb
+  - ray
+  - torch
+  - torchvision
+  - torchaudio
+  - --extra-index-url https://download.pytorch.org/whl/cu118
+  - botorch
+  - Cython
+  - pyyaml
+  - holoviews
+  - hvplot
+  - panel
+  - bokeh
+  - ipykernel
+  - altair

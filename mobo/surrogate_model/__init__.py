@@ -1,0 +1,2 @@
+from .botorch_gp_wrapper import BoTorchSurrogateModel, BoTorchSurrogateModelMean
+from .botorch_gp_wrapper_repeat import BoTorchSurrogateModelReapeat, BoTorchSurrogateModelReapeatMean
